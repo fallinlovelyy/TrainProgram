@@ -1,0 +1,6 @@
+/* pages/index/UserRegister/UserRegister/UserRegister.wxss */
+.submit {
+  margin: 0 auto;
+  padding-top: 15px;
+  width: 90%
+}

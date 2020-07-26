@@ -1,0 +1,30 @@
+<!--pages/userinfo/userinfo.wxml-->
+<view class="weui-cells weui-cells_after-title">
+	<navigator url="./UserIdInfo" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+		<view class="weui-cell__bd">个人资料</view>
+		<view class="weui-cell__ft weui-cell__ft_in-access"></view>
+	</navigator>
+	<navigator url="./PassengerInfo" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+		<view class="weui-cell__bd">乘车人</view>
+		<view class="weui-cell__ft weui-cell__ft_in-access"></view>
+	</navigator>
+  <navigator url="./CreditCardInfo" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+		<view class="weui-cell__bd">银行卡</view>
+		<view class="weui-cell__ft weui-cell__ft_in-access"></view>
+	</navigator>
+  <navigator url="./NumPass" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+		<view class="weui-cell__bd">账号密码修改</view>
+		<view class="weui-cell__ft weui-cell__ft_in-access"></view>
+	</navigator>
+  <navigator url="./Email" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+		<view class="weui-cell__bd">邮箱修改</view>
+		<view class="weui-cell__ft weui-cell__ft_in-access"></view>
+	</navigator>
+  <navigator url="./deleteNumber" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+		<view class="weui-cell__bd">注销账号</view>
+		<view class="weui-cell__ft weui-cell__ft_in-access"></view>
+	</navigator>
+</view>
+<view class="page__bd page__bd_spacing submit">
+	<button class="weui-btn" type="primary" bindtap="Quit">退出当前账号</button>
+</view>

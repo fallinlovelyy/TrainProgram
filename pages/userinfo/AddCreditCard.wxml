@@ -1,0 +1,24 @@
+<!--pages/userinfo/CreditCardInfo/AddCreditCard/AddCreditCard.wxml-->
+<view class="weui-cells weui-cells_after-title">
+	<view class="weui-cell weui-cell_active">
+		<view class="weui-cell__hd">
+			<view class="weui-label">银行卡号</view>
+		</view>
+		<view class="weui-cell__bd">
+			<input class="weui-input" placeholder="请输入银行卡号" bindchange="changeNumber"/>
+		</view>
+	</view>
+  <view class="weui-cell weui-cell_active">
+		<view class="weui-cell__hd">
+			<view class="weui-label">余额</view>
+		</view>
+		<view class="weui-cell__bd">
+			<input class="weui-input" placeholder="请输入余额" bindchange="changeMoney"/>
+		</view>
+	</view>
+</view>
+<view class="page__bd page__bd_spacing submit">
+	<button class="weui-btn" type="primary" bindtap="AddCreditCard">添加</button>
+</view>
+
+

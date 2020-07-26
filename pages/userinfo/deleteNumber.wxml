@@ -1,0 +1,15 @@
+<!--pages/userinfo/deleteNumber/deleteNumber.wxml-->
+<view class="page" data-weui-theme="{{theme}}">
+<view class="weui-cells__title">当前账号信息</view>
+	<view class="page__bd">
+		<view class="weui-cells weui-cells_after-title">
+			<view class="weui-cell">
+				<view class="weui-cell__bd">账号</view>
+				<view class="weui-cell__ft">{{Number}}</view>
+			</view>
+		</view>
+	</view>
+</view>
+<view class="page__bd page__bd_spacing submit">
+	<button class="weui-btn" type="primary" bindtap="deleteNumber">注销当前账号</button>
+</view>

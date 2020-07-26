@@ -1,0 +1,39 @@
+<!--pages/test/test.wxml-->
+
+<form bindsubmit='formSubmit' bindreset='formReset'>
+	<view class="container">
+		<view class='imagesize' style="padding-top:40px">
+			<image src="/images/huoche1.png" class='in-image'>
+			</image>
+		</view>
+		<test class='welcome_login'>欢迎登陆</test>
+		<view class="login-from">
+			<!--账号-->
+			<view class="inputView">
+				<image class="nameImage" src="/images/zhanghao.png"></image>
+				<label class="loginLab">账号</label>
+				<input class="inputText" placeholder="请输入账号" bindchange='changeNumber' />
+			</view>
+			<view class="line"></view>
+			<!--密码-->
+			<view class="inputView">
+				<image class="keyImage" src="/images/mima.png"></image>
+				<label class="loginLab">密码</label>
+				<input class="inputText" password="true" placeholder="请输入密码" bindchange='changePassword' />
+			</view>
+			<!--登录按钮-->
+			<view class="loginBtnView">
+				<button class="loginBtn" type="primary" size="{{primarySize}}" loading="{{loading}}" plain="{{plain}}" disabled="{{disabled}}" bindtap='UserLogin'>登录</button>
+			</view>
+			<!--注册按钮-->
+			<view class="loginBtnView">
+				<button class="loginBtn" type="primary" size="{{primarySize}}" loading="{{loading}}" plain="{{plain}}" disabled="{{disabled}}" bindtap='UserRegister'>注册</button>
+			</view>
+			<view class="weui-footer">
+				<view class="weui-footer__links" style="padding-top:20px">
+					<a class="weui-footer__link" bindtap="GetPassword">忘记密码？</a>
+				</view>
+			</view>
+		</view>
+	</view>
+</form>

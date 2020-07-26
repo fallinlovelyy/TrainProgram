@@ -1,0 +1,28 @@
+<!--pages/userinfo/UserIdInfo/UserIdInfo.wxml-->
+<view class="weui-cells weui-cells_after-title">
+  <navigator url="./ChangeIdInfo?changeWhat=Number" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+    <view class="weui-cell__bd">账号</view>
+    <view class="weui-cell__ft weui-cell__ft_in-access">{{userIdInfo.Number}}</view>
+  </navigator>
+  <navigator url="./ChangeIdInfo?changeWhat=Name" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+    <view class="weui-cell__bd">姓名</view>
+    <view class="weui-cell__ft weui-cell__ft_in-access">{{userIdInfo.Name}}</view>
+  </navigator>
+  <navigator url="./ChangeIdInfo?changeWhat=Sex" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+    <view class="weui-cell__bd">性别</view>
+    <view class="weui-cell__ft weui-cell__ft_in-access">{{userIdInfo.Sex}}</view>
+  </navigator>
+  <navigator url="./ChangeIdInfo?changeWhat=IdNumber" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+    <view class="weui-cell__bd">身份证号</view>
+    <view class="weui-cell__ft weui-cell__ft_in-access">{{userIdInfo.IdNumber}}</view>
+  </navigator>
+  <navigator url="./ChangeIdInfo?changeWhat=Birth" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+    <view class="weui-cell__bd">出生日期</view>
+    <view class="weui-cell__ft weui-cell__ft_in-access">{{userIdInfo.Birth}}</view>
+  </navigator>
+  <view class="weui-cells__title">联系方式</view>
+  <navigator url="./ChangeIdInfo?changeWhat=Email" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+    <view class="weui-cell__bd">邮箱</view>
+    <view class="weui-cell__ft weui-cell__ft_in-access">{{userIdInfo.Email}}</view>
+  </navigator>
+</view>

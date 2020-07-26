@@ -1,0 +1,13 @@
+<view class="weui-cells weui-cells_after-title">
+	<navigator url="./ChangeCreditCardInfo?changeWhat=Number" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+		<view class="weui-cell__bd">银行卡号</view>
+		<view class="weui-cell__ft weui-cell__ft_in-access">{{CreditCardInfo.Number}}</view>
+	</navigator>
+	<navigator url="./ChangeCreditCardInfo?changeWhat=Money" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+		<view class="weui-cell__bd">余额</view>
+		<view class="weui-cell__ft weui-cell__ft_in-access">{{CreditCardInfo.Money}}</view>
+	</navigator>
+</view>
+<view class="page__bd page__bd_spacing submit">
+	<button class="weui-btn" type="primary" bindtap="AddCreditCard">添加银行卡</button>
+</view>

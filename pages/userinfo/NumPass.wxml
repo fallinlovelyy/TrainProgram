@@ -1,0 +1,12 @@
+<!--pages/userinfo/ChangeNumber/ChangeNumber.wxml-->
+<view class="weui-cells weui-cells_after-title">
+	<navigator url="./ChangeNumPass?changeWhat=Number" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+		<view class="weui-cell__bd">账号</view>
+		<view class="weui-cell__ft weui-cell__ft_in-access">{{NumPass.Number}}</view>
+	</navigator>
+	<navigator url="./ChangeNumPass?changeWhat=Password" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+		<view class="weui-cell__bd">密码</view>
+		<view class="weui-cell__ft weui-cell__ft_in-access">{{NumPass.Password}}</view>
+	</navigator>
+</view>
+
