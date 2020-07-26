@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/UserLogin/UserLogin",
+    "pages/UserLogin/FirstStep",
+    "pages/UserLogin/SecondStep",
+    "pages/traininfo/traininfo",
+    "pages/ticketinfo/ticketinfo",
+    "pages/userinfo/userinfo",
+    "pages/userinfo/ChangeNumPass",
+    "pages/userinfo/Email",
+    "utils/config.js"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/traininfo/traininfo",
+        "text": "火车票",
+        "iconPath": "images/huoche1.png",
+        "selectedIconPath": "images/huoche2.png"
+      },
+      {
+        "pagePath": "pages/ticketinfo/ticketinfo",
+        "text": "订单",
+        "iconPath": "images/huochepiao1.png",
+        "selectedIconPath": "images/huochepiao2.png"
+      },
+      {
+        "pagePath": "pages/userinfo/userinfo",
+        "text": "我的",
+        "iconPath": "images/wo1.png",
+        "selectedIconPath": "images/wo2.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}
